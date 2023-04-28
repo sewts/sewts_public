@@ -7,3 +7,6 @@ For our new project we need a python script with the following criteria
  - There should be unittests for the script and the run method
 
 Hint: for the run method it is enough to add simple code in it (like printing the name of the class)
+
+Please use git for your implementation and commit and push your changes in the end
+Please implement your task on a new branch which is a child of this basic coding challenge branch
