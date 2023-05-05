@@ -1,13 +1,18 @@
-Sewts coding challenge:
+# Story 1:
 
-For our new project we need a python script with the following criteria
- - A user can input the name of a class
- - At least one class corresponding to the name
- - The run method of the corresponding class is called
- - There should be unittests for the script and the run method
+## Description:
 
-Hint: for the run method it is enough to add simple code in it (like printing the name of the class)
+We need a new command line script for our awesome new feature.
 
-Please use git for your implementation and commit and push your changes in the end
+The script should be able to accept a name value as parameter which will be used internally.
+Also we need an internal mapping of the given name to our implemenation classes (they are not there yet), so we can 
+execute the "run" method of the class we selected with the name.
 
-Please implement your task on a new branch which is a child of this basic coding challenge branch
+## Acceptance Criteria:
+- UnitTests with PyTest
+- Running without errors
+- More than 1 class implemented
+- Any additional requirements added to the requirements.txt
+
+# Hints:
+- For the run method it is enough to print the name of the class and the current time
